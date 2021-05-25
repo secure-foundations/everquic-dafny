@@ -46,7 +46,7 @@ client, see the `scripts/` directory.
 
 ### Extracted code from miTLS, mipki, everquic
 
-Can be found in their respective directories:
+Can be found in their respective directories. The original code can be found in:
 
 [miTLS](https://github.com/project-everest/mitls-fstar)
 
