@@ -1,10 +1,12 @@
 # quic-dafny
 
-This repo contains code for the Dafny implementation of quic protocol layer, which is used in the following paper:
+This repo contains code for the Dafny implementation of QUIC protocol layer, which is used in the following paper:
 
 [A Security Model and Fully Verified Implementation for the IETF QUIC Record Layer](http://www.andrew.cmu.edu/user/bparno/papers/quic-record.pdf)
 Antoine Delignat-Lavaud, Cédric Fournet, Bryan Parno, Jonathan Protzenko, Tahina Ramananandro, Jay Bosamiya, Joseph Lallemand, Itsaka Rakotonirina, and Yi Zhou
 In Proceedings of the IEEE Symposium on Security and Privacy, May, 2021
+
+The F* implementation of QUIC record layer can be found in the [everquic repo](https://github.com/project-everest/everquic-crypto).
 
 This work was done as part of [Project Everest](https://project-everest.github.io/).
 
@@ -46,9 +48,4 @@ client, see the `scripts/` directory.
 
 ### Extracted code from miTLS, mipki, everquic
 
-Can be found in their respective directories. The original code can be found in:
-
-[miTLS](https://github.com/project-everest/mitls-fstar)
-
-[everquic](https://github.com/project-everest/everquic-crypto)
-
+Can be found in their respective directories. 
